@@ -1,0 +1,154 @@
+# MTH202 — Discrete Mathematics
+## Lesson 1: Introduction to Logic
+
+### 1. Statement (Proposition)
+
+**Definition:** A statement is a declarative sentence that is either true or false, but not both.
+
+**Examples:**
+
+- 5 is greater than 3. — **True Statement**
+- 2 + 2 = 7. — **False Statement**
+- Karachi is in Pakistan. — **True Statement**
+- 10 is less than 4. — **False Statement**
+- 7 is an odd number. — **True Statement**
+
+**Examples of sentences that are NOT statements:**
+
+- What is your name? — Question
+- Please open the door. — Command
+- x + 3 — Mathematical expression, not a statement
+- x + 3 = 7 — Open sentence if the value of x is not given
+
+**Important:** A mathematically incorrect sentence can still be a statement if its truth value is False.
+
+### 2. Negation (NOT) — ~p
+
+**Definition:** Negation reverses the truth value of a statement.
+
+**Example:**
+
+- p: 10 is an even number.
+- ~p: 10 is not an even number.
+
+If p = True, then ~p = False.
+
+### 3. Conjunction (AND) — p ∧ q
+
+**Definition:** Conjunction is true only when both statements are true.
+
+**Example:**
+
+- p: 2 is an even number.
+- q: 4 is an even number.
+- p ∧ q = True
+
+If p = True and q = False, then p ∧ q = False.
+
+### 4. Disjunction (OR) — p ∨ q
+
+**Definition:** Disjunction is false only when both statements are false.
+
+**Example:**
+
+- p: 2 is an even number.
+- q: 3 is an even number.
+- p ∨ q = True
+
+If p = False and q = False, then p ∨ q = False.
+
+### 5. Conditional (IF–THEN) — p → q
+
+**Definition:** A conditional statement has the form “If p, then q.”
+
+**Example:**
+
+- p: It rains.
+- q: The ground gets wet.
+- p → q: If it rains, then the ground gets wet.
+
+If p = True and q = False, then p → q = False.
+
+### 6. Bi-conditional (IF AND ONLY IF) — p ↔ q
+
+**Definition:** A bi-conditional is true when both statements have the same truth value.
+
+**Example:**
+
+- If p = True and q = True, then p ↔ q = True.
+- If p = True and q = False, then p ↔ q = False.
+
+---
+
+# Important Truth Tables
+
+## Truth Table 1: Negation (NOT) — ~p
+
+| p | ~p |
+|---|---|
+| T | F |
+| F | T |
+
+## Truth Table 2: Conjunction (AND) — p ∧ q
+
+| p | q | p ∧ q |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | F |
+| F | F | F |
+
+## Truth Table 3: Disjunction (OR) — p ∨ q
+
+| p | q | p ∨ q |
+|---|---|---|
+| T | T | T |
+| T | F | T |
+| F | T | T |
+| F | F | F |
+
+## Truth Table 4: Conditional — p → q
+
+| p | q | p → q |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | T |
+| F | F | T |
+
+## Truth Table 5: Bi-conditional — p ↔ q
+
+| p | q | p ↔ q |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | F |
+| F | F | T |
+
+---
+
+# Important Points for Quiz — Roman Urdu
+
+1. **Statement:** Aisa declarative jumla jis ki truth value True ya False ho.
+2. **False Statement:** Ghalat mathematical sentence bhi statement ho sakta hai, jaise 2 + 2 = 7.
+3. **Not a Statement:** Question, command aur sirf expression (x + 3) statement nahi hote.
+4. **Open Sentence:** x + 3 = 7 mein x ki value na di ho to truth value decide nahi kar sakte.
+5. **Negation (~):** Truth value ulat deta hai. T → F aur F → T.
+6. **Conjunction (AND):** Sirf dono statements True hon to result True hota hai.
+7. **Disjunction (OR):** Kam az kam ek statement True ho to result True hota hai.
+8. **Conditional (→):** Sirf T → F ka result False hota hai.
+9. **Bi-conditional (↔):** Dono truth values same hon to True, different hon to False.
+10. **Truth Table:** Do statements p aur q ki 4 possible combinations hoti hain.
+11. **Inclusive OR:** Dono statements True hon tab bhi OR ka result True hota hai.
+
+## Quick Memory Tricks
+
+- AND = Both True
+- OR = At least One True
+- NOT = Opposite
+- Conditional = Only T → F is False
+- Bi-conditional = Same Values Mean True
+
+## Exam Tip
+
+Definitions, symbols, examples aur har operator ki truth table practice karo. Truth table questions mein pehle p aur q ki values dekho, phir operator ka rule apply karo.

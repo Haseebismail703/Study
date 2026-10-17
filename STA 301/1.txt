@@ -1,0 +1,70 @@
+1. Definition of Statistics ⭐
+Definition: Statistics is the science of collecting, organizing, analyzing, and interpreting data.
+
+Meanings of ‘Statistics’
+The word “Statistics” comes from the Latin word status, meaning a political state.
+the word statistics is always used in plural
+
+THE MEANING OF DATA ⭐
+The word data is used in many situations and in everyday conversation.
+data is latin word 
+
+Datum = Singular (one piece of information)
+Data = Plural (more than one piece of information)
+
+
+1. Observations ⭐
+An observation is a recorded piece of information.
+
+Book ke examples:
+- Physical measurement: Height or weight.
+- Classification: Heads or tails.
+- Answer to a question: Yes or no.
+
+2. Variables
+A variable is a characteristic that can change from one person or object to another.
+Examples: Age, height, weight.
+
+1) Quantitative Variable ⭐
+A quantitative variable is a characteristic that can be expressed in numbers.
+Age
+Weight
+Income
+Number of children
+
+2) Qualitative Variable ⭐
+A variable with a non-numerical characteristic is called a qualitative variable.
+Education
+Sex
+Eye colour
+Quality
+
+
+Discrete and Continuous Variables
+1) Discrete
+A discrete variable takes separate, countable values, usually whole numbers.
+Number of persons in a family
+Number of rooms in a house
+Number of deaths in an accident
+
+2) Continuous Variables
+A continuous variable can take whole-number and fractional values within an interval.
+Height of a plant
+Weight of a commodity
+
+
+
+
+
+
+
+
+
+
+Agar (X) students ke marks ko represent karta hai:
+-(X_1 = 60) → first student's marks
+-(X_2 = 75) → second student's marks
+-(X_3 = 80) → third student's marks
+
+
+
