@@ -25,12 +25,7 @@ int main()
     int place = 10000;
 
     // Display Table Headers
-    cout << left << setw(6) << "Order" 
-         << setw(10) << "Quantity" 
-         << setw(22) << "Package Type" 
-         << setw(15) << "Original(Rs.)" 
-         << setw(10) << "Discount" 
-         << setw(10) << "Final(Rs.)" << endl;
+    cout << left << setw(6) << "Order" << setw(10) << "Quantity"  << setw(22) << "Package Type"  << setw(15) << "Original(Rs.)"  << setw(10) << "Discount"  << setw(10) << "Final(Rs.)" << endl;
     cout << "-------------------------------------------------------------------------" << endl;
 
     // Step 3: Process Five Transactions
@@ -73,12 +68,7 @@ int main()
         double finalCharge = originalCharge - discount;
 
         // Display transaction row
-        cout << left << setw(6) << i
-             << setw(10) << quantity
-             << setw(22) << packageType
-             << setw(15) << originalCharge
-             << setw(10) << discount
-             << setw(10) << finalCharge << endl;
+        cout << left << setw(6) << i << setw(10) << quantity << setw(22) << packageType<< setw(15) << originalCharge<< setw(10) << discount<< setw(10) << finalCharge << endl;
 
         // Update daily totals
         totalContainers += quantity;
